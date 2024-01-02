@@ -4,4 +4,5 @@
 .Ruserdata
 template.html
 template_files
-template.pdf
+^template.pdf$
+README_files
