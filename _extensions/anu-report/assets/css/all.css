@@ -54,7 +54,7 @@ main {
 }
 
 main:before {
-  background-image: url("../anu-crest-gold.png");
+  background-image: url("../images/anu-crest-gold.png");
   background-size: 70px 70px;
   background-repeat: no-repeat;
   width: 140px;

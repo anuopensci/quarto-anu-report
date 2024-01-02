@@ -15,5 +15,11 @@ contributes:
       abstract-title: "Executive Summary"
     pdf:
       toc: true
+      include-before-body: before-body.tex
       include-in-header: header.tex
+      documentclass: article
+      format-resources:
+       - assets/images/coverpage.jpg
+       - assets/images/page-background.jpg
+      #template: assets/template.tex
 
