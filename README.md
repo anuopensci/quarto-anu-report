@@ -1,4 +1,4 @@
-# Quarto ANU Report Template
+# Quarto template for ANU Report
 
 This is a work-in-progress! Currently HTML is the only one developed.
 
