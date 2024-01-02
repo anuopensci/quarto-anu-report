@@ -1,0 +1,65 @@
+---
+title: "ANU Report Template"
+author:
+  - name: Bill Gates
+    orcid: 0000-0003-1689-0557
+    email: bill@gates.com
+    affiliations:
+      - name: Bill & Melinda Gates Foundation
+  - name: "Florence Nightingale"
+    email: "florence@anu.edu.au"
+    affiliations:
+      - name: Australian National University
+        department: Research School of Visualiation
+        url: https://www.anu.edu.au/
+    role: 
+     - conceptualization
+     - methodology
+  - name: "Ronald Fisher"
+    email: "ronald@anu.edu.au"
+    affiliation: 
+     - name: "Australian National University"
+       department: "Frequentist Statistics Institute"
+  - name: Chat GPT
+    affiliation: "OpenAI"
+date: 2024-01-02
+date-modified: last-modified
+categories: 
+ - optional category labels
+ - technical report series
+keywords: 
+ - reproducible research
+ - open science
+abstract: |
+  The report delineates key principles, such as version control and data sharing, and introduces practical tools like RMarkdown, Jupyter Notebooks, and Docker. Reproducible research significantly boosts the credibility of scientific findings, fostering collaboration, iterative improvements, and efficient communication. The document addresses challenges like data privacy and infrastructure constraints, proposing solutions such as anonymization and institutional support. Recognizing the transformative impact of reproducibility, the report concludes that its adoption contributes to building a culture of transparency and accountability in scientific endeavors, laying the groundwork for a more robust foundation in advancing knowledge. Recommendations include providing training resources, support infrastructure, and guidelines to facilitate the integration of reproducible research practices into standard workflows.
+description: |
+  This is a template for an ANU report. This report template is available at github.com/anu-links.
+format:
+  anu-report-html: default
+  #anu-report_pdf: default
+---
+
+
+## Introduction
+
+Reproducible research is an essential paradigm that promotes the idea that scientific investigations should be transparent, verifiable, and accessible to others. In an era where the scientific community faces concerns about the replicability of research findings, adopting reproducible research practices becomes imperative.
+
+
+
+## Key Benefits of Reproducible Research
+
+- _Increased Credibility_: Transparent and reproducible research enhances the credibility of scientific findings, as others can independently verify and validate the results.
+- _Collaboration and Iteration_: Open sharing of code and data facilitates collaboration among researchers and allows for the iterative improvement of studies over time.
+- _Efficient Communication_: Reproducible research documents serve as comprehensive and self-contained artifacts, aiding in effective communication of methodologies and results.
+
+## Method
+
+## Conclusion
+
+
+This report underscores the transformative impact of reproducible research on the scientific landscape, promoting a commitment to openness and accountability for the benefit of the entire research community.
+
+
+## References
+
+
