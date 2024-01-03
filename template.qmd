@@ -1,12 +1,16 @@
 ---
 title: "ANU Report Template"
+subtitle: "via Quarto"
 author:
   - name: Bill Gates
     orcid: 0000-0003-1689-0557
     email: bill@gates.com
     affiliations:
       - name: Bill & Melinda Gates Foundation
-  - name: "Florence Nightingale"
+  - name:
+     given: "Florence"
+     family: "Nightingale"
+     literal: "Prof. Florence Nightingale"
     email: "florence@anu.edu.au"
     affiliations:
       - name: Australian National University
@@ -36,8 +40,7 @@ description: |
   This is a template for an ANU report. This report template is available at github.com/anu-links.
 format:
   #anu-report-html: default
-  anu-report-pdf: 
-    latex: true
+  anu-report-pdf: default
 ---
 
 
@@ -54,6 +57,18 @@ Reproducible research is an essential paradigm that promotes the idea that scien
 - _Efficient Communication_: Reproducible research documents serve as comprehensive and self-contained artifacts, aiding in effective communication of methodologies and results.
 
 ## Method
+
+### Getting started
+
+1. Install [Quarto](https://quarto.org/docs/get-started/).
+2. You may need to install Public Sans font if you do not have it. You can find it [here](https://github.com/anu-links/quarto-anu-report/tree/main/_extensions/anu-report/assets/webfonts).
+3. The easiest way to edit and render the document is using the [RStudio IDE](https://posit.co/download/rstudio-desktop/). If you prefer not to install R, then you can use VS Code instead.
+4. From the Terminal run the following command
+```bash
+quarto use template anu-links/quarto-anu-report
+```
+
+
 
 ## Conclusion
 

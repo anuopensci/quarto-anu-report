@@ -1,8 +1,21 @@
+% Inspired by https://github.com/nmfs-opensci/quarto_titlepages_v1
+$if(has-frontmatter)$
+  \begin{frontmatter}
+  \begin{titlepage}
+  $_titlepage.tex()$
+
+  \end{titlepage}
+  \end{frontmatter}
+$else$
+  \begin{titlepage}
+  $_titlepage.tex()$
+
+  \end{titlepage}
+$endif$
 
 
-
-\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{coverpage.jpg}}
-\maketitle
 
 \cleardoublepage
-\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{page-background.jpg}}
+\AddToShipoutPicture{\includegraphics[width=\paperwidth,height=\paperheight]{$bg-image$}}
+
+

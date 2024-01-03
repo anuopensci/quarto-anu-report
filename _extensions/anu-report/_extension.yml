@@ -4,22 +4,44 @@ version: 1.0.0
 quarto-required: ">=1.4.0"
 contributes:
   formats:
-    html:
+    common:
+      date-format: "Do MMMM YYYY"
       toc: true
+      abstract-title: "Executive Summary"
+      published-title: "Date"
+    html:
       toc-location: left
       theme: [custom.scss]
       css: assets/css/all.css
       template-partials:
        - assets/title-block.html
        - assets/toc.html
-      abstract-title: "Executive Summary"
+
     pdf:
-      toc: true
-      include-before-body: before-body.tex
+      #include-before-body: before-body.tex
       include-in-header: header.tex
-      documentclass: article
-      format-resources:
-       - assets/images/coverpage.jpg
-       - assets/images/page-background.jpg
+      documentclass: scrbook
+      number-sections: false
+      classoption: ["oneside", "open=any"]
+      mainfont: "Public Sans"
+      geometry:
+      - top=30mm
+      - left=25mm
+      - right=25mm
+      - bottom=30mm
+      papersize: a4
+      titlepage-geometry:
+      - top=3in
+      - bottom=1in
+      - right=1in
+      - left=1in
+      title-bg-image: assets/images/coverpage.jpg
+      title-bg-location: "UL"
+      title-bg-size: 1
+      bg-image: assets/images/page-background.jpg
+      template-partials:
+      - before-body.tex
+      - _titlepage.tex
+      # - assets/title.tex
       #template: assets/template.tex
 

@@ -3,7 +3,7 @@
 
 # Quarto template for ANU Report
 
-This is a work-in-progress! Currently HTML is the only one developed.
+This is a work-in-progress!
 
 ## Installing
 
@@ -16,7 +16,7 @@ can use as a starting place for your article.
 
 ## Format Options
 
-There are two formats: PDF and HTML. PDF format is not developed yet.
+There are two formats: PDF and HTML.
 
 ### `anu-report-html`
 
