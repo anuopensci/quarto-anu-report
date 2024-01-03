@@ -7,8 +7,10 @@ contributes:
     common:
       date-format: "Do MMMM YYYY"
       toc: true
-      abstract-title: "Executive Summary"
+      summary-title: "Executive Summary"
       published-title: "Date"
+      hide-description: false
+      hide-summary: false
     html:
       toc-location: left
       theme: [custom.scss]

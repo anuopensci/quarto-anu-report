@@ -38,16 +38,10 @@ $if(by-affiliation/first)$
     <p class="author">$_title-meta-author.html()$</p>
     $for(by-author.affiliations)$
     <p class="affiliation">
-      $if(it.url)$
-      <a href="$it.url$">
-      $endif$
       $if(it.department)$
       <p class="department">$it.department$</p>
       $endif$
       <p class="affiliation">$it.name$</p>
-      $if(it.url)$
-      </a>
-      $endif$
     </p>
     $endfor$
   </div>
@@ -73,16 +67,11 @@ $endif$
   <div>
     <div class="quarto-title-meta-heading">$labels.published$</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">$date$</p>
-    </div>
-  </div>
-  $endif$
-
-  $if(date-modified)$
-  <div>
-    <div class="quarto-title-meta-heading">$labels.modified$</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date-modified">$date-modified$</p>
+      <p class="date">$date$
+      $if(date-modified)$
+      <i class="date-modified">(Last modified: $date-modified$)</i>
+      $endif$
+      </p>
     </div>
   </div>
   $endif$
@@ -99,11 +88,12 @@ $endif$
   $endif$
 </div>
 
-$if(abstract)$
+$if(hide-summary)$
+$elseif(summary)$
 <div>
   <div class="abstract">
-    <div class="block-title">$labels.abstract$</div>
-    $abstract$
+    <div class="block-title">$summary-title$</div>
+    $summary$
   </div>
 </div>
 $endif$

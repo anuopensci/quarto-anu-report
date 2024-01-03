@@ -67,9 +67,10 @@ $endif$
 \vspace{3mm}
 $endif$
 
-$if(abstract)$
-\textcolor{anugold}{\MakeUppercase{$labels.abstract$}}\\
-$abstract$
+$if(hide-summary)$
+$elseif(summary)$
+\textcolor{anugold}{\MakeUppercase{$summary-title$}}\\
+$summary$
 $endif$
 \vspace{3mm}
 
