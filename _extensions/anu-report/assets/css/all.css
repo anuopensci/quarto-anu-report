@@ -82,3 +82,8 @@ main:before {
   padding: 7px;
   border-radius: 10px;
 }
+
+
+figcaption {
+  text-align: left!important;
+}
