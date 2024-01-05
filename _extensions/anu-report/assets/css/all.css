@@ -48,12 +48,15 @@
   max-width:70px;
 }
 
-main {
+#quarto-document-content {
   border-left: 2px solid #BE830E;
   padding-left: 10px;
+  margin-left: 10px;
 }
 
-main:before {
+
+
+header:before {
   background-image: url("../images/anu-crest-gold.png");
   background-size: 70px 70px;
   background-repeat: no-repeat;
