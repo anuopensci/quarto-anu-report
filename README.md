@@ -9,7 +9,7 @@ This repository contains the Quarto template for ANU report.
 ## Installing
 
 ``` bash
-quarto use template anu-links/quarto-anu-report
+quarto use template anuopensci/quarto-anu-report
 ```
 
 This will install the extension and create an example qmd file that you
