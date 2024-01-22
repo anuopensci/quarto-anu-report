@@ -47,3 +47,6 @@ contributes:
       # - assets/title.tex
       #template: assets/template.tex
 
+    docx:
+      reference-doc: anu-reference-doc.docx
+

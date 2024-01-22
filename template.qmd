@@ -36,7 +36,7 @@ keywords:
 summary: |
   The report delineates key principles, such as version control and data sharing, and introduces practical tools like RMarkdown, Jupyter Notebooks, and Docker. Reproducible research significantly boosts the credibility of scientific findings, fostering collaboration, iterative improvements, and efficient communication. The document addresses challenges like data privacy and infrastructure constraints, proposing solutions such as anonymization and institutional support. Recognizing the transformative impact of reproducibility, the report concludes that its adoption contributes to building a culture of transparency and accountability in scientific endeavors, laying the groundwork for a more robust foundation in advancing knowledge. Recommendations include providing training resources, support infrastructure, and guidelines to facilitate the integration of reproducible research practices into standard workflows.
 description: |
-  This report template is available at [github.com/anu-links/quarto-anu-report](https://github.com/anu-links/quarto-anu-report).
+  This report template is available at [github.com/anuopensci/quarto-anu-report](https://github.com/anuopensci/quarto-anu-report).
 format:
   anu-report-html: 
     hide-description: false
@@ -46,6 +46,7 @@ format:
     hide-description: false
     hide-summary: false
     summary-title: "Executive Summary"
+  anu-report-docx: default
 ---
 
 
