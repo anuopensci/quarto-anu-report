@@ -11,6 +11,7 @@ contributes:
       published-title: "Date"
       hide-description: false
       hide-summary: false
+      mainfont: "Public Sans"
     html:
       toc-location: left
       theme: [custom.scss]
