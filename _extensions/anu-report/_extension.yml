@@ -16,6 +16,7 @@ contributes:
       toc-location: left
       theme: [custom.scss]
       css: assets/css/all.css
+      self-contained: true
       template-partials:
        - assets/title-block.html
        - assets/toc.html
