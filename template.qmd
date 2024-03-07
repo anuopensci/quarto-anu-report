@@ -45,14 +45,18 @@ format:
   anu-report-pdf: 
     hide-description: false
     hide-summary: false
+    keep-tex: true
     summary-title: "Executive Summary"
   anu-report-docx: default
+bibliography: ref.bib
 ---
 
 
 ## Introduction
 
 Reproducible research is an essential paradigm that promotes the idea that scientific investigations should be transparent, verifiable, and accessible to others. In an era where the scientific community faces concerns about the replicability of research findings, adopting reproducible research practices becomes imperative.
+
+This document uses @quarto.
 
 
 ## Key Benefits of Reproducible Research
