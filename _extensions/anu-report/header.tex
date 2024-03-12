@@ -54,3 +54,7 @@
 % \vskip .75em plus .25em minus .25em% increase the vertical spacing a bit, make this particular glue stretchier
 %}
 
+% ensure chapter starts on the same page
+\makeatletter
+\patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother
