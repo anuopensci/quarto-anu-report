@@ -4,8 +4,6 @@
 
 # Quarto template for ANU Report
 
-This is **work in progress**!
-
 This repository contains the Quarto template for ANU report.
 
 ## Getting started
@@ -25,6 +23,14 @@ quarto use template anuopensci/quarto-anu-report
 
 This will install the extension and create an example qmd file that you
 can use as a starting place for your report.
+
+Or alternatively use
+
+``` bash
+quarto add anuopensci/quarto-anu-report
+```
+
+to add the format without the template.
 
 ## Format Options
 

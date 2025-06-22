@@ -21,6 +21,15 @@ quarto use template anuopensci/quarto-anu-report
 
 This will install the extension and create an example qmd file that you can use as a starting place for your report.
 
+
+Or alternatively use 
+
+```bash
+quarto add anuopensci/quarto-anu-report
+```
+
+to add the format without the template. 
+
 ## Format Options
 
 There are three formats available: pdf, html and docx. The docx only contains the styles.
