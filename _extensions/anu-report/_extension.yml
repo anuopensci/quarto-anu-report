@@ -46,6 +46,7 @@ contributes:
       template-partials:
       - before-body.tex
       - _titlepage.tex
+      - before-title.tex
       # - assets/title.tex
       #template: assets/template.tex
 

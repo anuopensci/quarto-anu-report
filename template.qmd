@@ -47,6 +47,7 @@ format:
     hide-summary: false
     keep-tex: true
     summary-title: "Executive Summary"
+    watermark: DRAFT
   anu-report-docx: default
 bibliography: ref.bib
 ---
