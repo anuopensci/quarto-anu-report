@@ -59,4 +59,12 @@
 \patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
 \makeatother
 
+% change tabular environment to use fixed font
+\usepackage{etoolbox}
+\AtBeginEnvironment{tabular}{\sffamily}
+\AtBeginEnvironment{longtable}{\sffamily}
+
+% caption set up
+\usepackage{caption}
+\captionsetup{labelsep=space, format=plain, justification=justified, font=small, labelfont=bf}
 
